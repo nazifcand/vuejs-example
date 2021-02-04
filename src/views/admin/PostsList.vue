@@ -1,0 +1,1 @@
+<template>POSTS LIST</template>
