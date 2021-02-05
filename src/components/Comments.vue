@@ -14,6 +14,8 @@
 
 <style lang="scss" scoped>
 .comment {
+  margin-bottom: 25px;
+
   p {
     color: #333;
     line-height: 1.35;

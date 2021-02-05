@@ -11,7 +11,7 @@
 
       <section v-if="isLoggedIn">
         <router-link to="/admin">Admin</router-link>
-        <a class="logout" @click="logOut">Cikiş Yap</a>
+        <a class="logout" @click="logOut">Logout</a>
       </section>
     </div>
   </header>

@@ -39,6 +39,20 @@ export default {
         }, []);
       })
       .catch(err => console.log(err))
+  },
+
+  createComment({ commit, state }, { comment }) {
+    const date = Date.now();
+    const postId = state.singlePost.id;
+    const author = state.user.id;
+
+    axios
+      .post('/comments', { text: comment, date, postId, author })
+      .then(result => {
+        result.data.author = state.user;
+        commit('setNewComment', result.data);
+      })
+      .catch(err => console.log())
   }
 
 

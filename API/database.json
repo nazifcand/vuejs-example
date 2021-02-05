@@ -146,11 +146,95 @@
   ],
   "comments": [
     {
-      "id": 1,
-      "text": "Deneme yorumum bu benim",
+      "text": "deneme",
+      "date": 1612517643275,
+      "postId": 4,
+      "author": 3,
+      "id": 1
+    },
+    {
+      "text": "selamlar",
+      "date": 1612517647310,
+      "postId": 4,
+      "author": 3,
+      "id": 2
+    },
+    {
+      "text": "cennet mahallesi",
+      "date": 1612517655295,
+      "postId": 6,
+      "author": 3,
+      "id": 3
+    },
+    {
+      "text": "selam\n",
+      "date": 1612517682113,
+      "postId": 6,
       "author": 1,
-      "date": 1612442108335,
-      "postId": 1
+      "id": 4
+    },
+    {
+      "text": "ssss",
+      "date": 1612518009091,
+      "postId": 11,
+      "author": 2,
+      "id": 5
+    },
+    {
+      "text": "sdölşsa d",
+      "date": 1612518029104,
+      "postId": 11,
+      "author": 3,
+      "id": 6
+    },
+    {
+      "text": "asd",
+      "date": 1612518113947,
+      "postId": 7,
+      "author": 3,
+      "id": 7
+    },
+    {
+      "text": "i tried new comment",
+      "date": 1612518201858,
+      "postId": 2,
+      "author": 3,
+      "id": 8
+    },
+    {
+      "text": "sen abdülhamiti savundun",
+      "date": 1612518233245,
+      "postId": 6,
+      "author": 3,
+      "id": 9
+    },
+    {
+      "text": "hayır savunmadım",
+      "date": 1612518257919,
+      "postId": 6,
+      "author": 1,
+      "id": 10
+    },
+    {
+      "text": "savundun",
+      "date": 1612518263456,
+      "postId": 6,
+      "author": 3,
+      "id": 11
+    },
+    {
+      "text": "çıkar göster",
+      "date": 1612518269801,
+      "postId": 6,
+      "author": 1,
+      "id": 12
+    },
+    {
+      "text": "deneme",
+      "date": 1612518469424,
+      "postId": 2,
+      "author": 3,
+      "id": 13
     }
   ],
   "users": [

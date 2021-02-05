@@ -15,5 +15,9 @@ export default {
 
   setSinglePost(state, post) {
     state.singlePost = post;
+  },
+
+  setNewComment(state, comment) {
+    state.singlePost.comments.push(comment);
   }
 }
