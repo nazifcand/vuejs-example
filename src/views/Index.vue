@@ -30,7 +30,7 @@ export default {
   components: { ListPosts },
   created() {
     axios
-      .get('/posts')
+      .get('/posts?_sort=id&_order=desc')
       .then(result => this.posts = result.data)
       .catch(err => console.log(err))
   }
