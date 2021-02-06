@@ -42,6 +42,9 @@ const routes = [
     path: '/admin',
     name: 'Admin Main',
     component: () => import('../views/admin/Main.vue'),
+    meta: {
+      isLoginRequired: true
+    },
     children: [
       {
         path: '/admin',
@@ -71,6 +74,7 @@ router.beforeEach((to, from, next) => {
   document.title = to.params.title ? to.params.title : to.name;
   const { token } = localStorage;
 
+  /* Check token */
   if (!token) {
     store.commit('logOut');
   } else {
@@ -86,6 +90,10 @@ router.beforeEach((to, from, next) => {
 
       })
       .catch(err => console.log(err));
+  }
+
+  if (to.meta.isLoginRequired && !token) {
+    return router.push('/login');
   }
 
   next();
