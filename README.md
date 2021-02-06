@@ -1,19 +1,21 @@
-# router-example
+# vue-vuex-blog
 
-## Project setup
-```
-npm install
-```
+VueJS 3, vue-router and Vuex blog example
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Install
 
-### Compiles and minifies for production
-```
-npm run build
-```
+        npm install
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+        json-server --watch /API/database.json
+
+        npm run serve
+
+## Screenshot
+
+#### Index Page
+
+![Home](https://i.hizliresim.com/yRs4gQ.png)
+
+#### Admin Page
+
+![Home](https://i.hizliresim.com/4YUfZM.png)
